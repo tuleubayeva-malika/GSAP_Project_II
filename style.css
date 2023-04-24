@@ -13,35 +13,16 @@
 .frame_start_txt {
     display: flex;
     flex-direction: column;
-    align-items: center
+    align-items: center;
+    margin: 5px 0 15px 0;
 }
-
-@font-face {
-	font-family: 'Futura PT Bold';
-	src: url('../fonts/futura_pt_bold.eot'); /* IE 9 Compatibility Mode */
-	src: url('../fonts/futura_pt_bold.eot?#iefix') format('embedded-opentype'), /* IE < 9 */
-		url('../fonts/futura_pt_bold.woff2') format('woff2'), /* Super Modern Browsers */
-		url('../fonts/futura_pt_bold.woff') format('woff'), /* Firefox >= 3.6, any other modern browser */
-		url('../fonts/futura_pt_bold.ttf') format('truetype'), /* Safari, Android, iOS */
-		url('../fonts/futura_pt_bold.svg#futura_pt_bold') format('svg'); /* Chrome < 4, Legacy iOS */
-}
-
-/* .frame {
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    background-color: #fff;
-    background-repeat: no-repeat;
-    background-position: center;
-} */
 
 .frame_start-txt_1,
 .frame_start-txt_2,
 .frame_start-txt_3 {
     color: #2cb34a;
-    font-family: "Futura PT Bold";
+    font-family: "Tilt Warp";
     text-transform: uppercase;
-    font-weight: bold;
     font-size: 23px;
 }
 
@@ -59,8 +40,7 @@
 .frame_start-list li {
     text-decoration: none;
     color: #2cb34a;
-    font-family: "Futura PT Bold";
-    font-weight: bold;
+    font-family: "Tilt Warp";
     font-size: 14px;
 }
 
@@ -73,7 +53,7 @@
 button {
     background-color: #e8383f;
     color: white;
-    font-family: "Futura PT Bold";
+    font-family: "Tilt Warp";
     font-weight: bold;
     font-size: 18px;
     text-transform: uppercase;
@@ -81,11 +61,12 @@ button {
     width: 146px;
     height: 32px;
     border-radius: 8px;
+    cursor: pointer;
 }
 
 .frame_start-txt_4 {
     color: #2cb34a;
-    font-family: "Futura PT Bold";
+    font-family: "Tilt Warp";
     text-transform: uppercase;
     font-size: 16px;
     margin: auto;
