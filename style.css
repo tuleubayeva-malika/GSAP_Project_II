@@ -52,7 +52,6 @@
 
 button {
     background-color: #e8383f;
-    color: white;
     font-family: "Tilt Warp";
     font-weight: bold;
     font-size: 18px;
@@ -64,6 +63,10 @@ button {
     cursor: pointer;
 }
 
+button a {
+    text-decoration: none;
+    color: white;
+}
 .frame_start-txt_4 {
     color: #2cb34a;
     font-family: "Tilt Warp";
