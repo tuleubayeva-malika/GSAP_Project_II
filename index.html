@@ -34,14 +34,12 @@
         </div>
 
         <script>
-            let tl = gsap.timeline({repeat:-1});
+            let tl = gsap.timeline();
             tl.from(".frame_start_txt", {y:65, scale:1.3, delay:2})
             tl.from(".btn", {opacity:0, rotationY:180})
             tl.from(".frame_start-list li", {stagger: 0.5, scale:0.9, opacity:0, duration:0.5})
             tl.from(".frame_start-txt_4", {stagger: 0.5, scale:0.9, opacity:0, duration:0.5})
             tl.from(".logo", {opacity:0, duration:0.5})
-            
-            
         </script>
     </body>
 </html>
